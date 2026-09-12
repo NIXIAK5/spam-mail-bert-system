@@ -7,9 +7,9 @@
 > 仓库仅上传项目源码，训练权重、数据集文件已通过.gitignore忽略，不包含在代码仓库内。
 
 ## 技术栈
-**后端**：Python，BERT（Hugging Face Transformers），FastAPI
-**前端**：Vue3，JavaScript，CSS
-**工具**：Git，GitHub
+- **后端**：Python，BERT（Hugging Face Transformers），FastAPI
+- **前端**：Vue3，JavaScript，CSS
+- **工具**：Git，GitHub
 
 ## 系统功能
 1. 邮件文本输入：手动输入邮件正文提交识别
@@ -42,10 +42,18 @@ npm run dev
 
 ## 模型说明
 
-模型：BERT 中文预训练模型，自行训练得到模型
-任务：文本二分类，区分垃圾邮件（Spam）与正常邮件（Ham）
-训练数据集：SampHam 邮件数据集（数据集文件不上传仓库）
-推理：训练完成的模型权重本地加载，后端提供预测接口供前端调用
+- 模型：BERT 中文预训练模型，自行训练得到模型
+- 任务：文本二分类，区分垃圾邮件（Spam）与正常邮件（Ham）
+- 训练数据集：SampHam 邮件数据集（数据集文件不上传仓库）
+- 推理：训练完成的模型权重本地加载，后端提供预测接口供前端调用
+
+## 项目部分截图
+<img width="1194" height="688" alt="1" src="https://github.com/user-attachments/assets/54b9852b-b3d2-4b7d-af0d-ff449a7b4bda" />
+<img width="1649" height="957" alt="8" src="https://github.com/user-attachments/assets/60b7892d-1ad7-4e3f-a400-728dfaa96b33" />
+<img width="1400" height="952" alt="user2" src="https://github.com/user-attachments/assets/06d31976-8237-4bf9-9096-dd61b4af40d6" />
+<img width="1404" height="955" alt="user3" src="https://github.com/user-attachments/assets/2899bdee-c01e-4211-a138-74f0cc5a3cf2" />
+<img width="1565" height="929" alt="user8" src="https://github.com/user-attachments/assets/c195ed4b-cf97-434a-b5a9-5236a7c161c3" />
+
 
 ## 备注
 
